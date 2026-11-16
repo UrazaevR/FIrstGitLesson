@@ -4,6 +4,7 @@ def say_hello():
 
 def goodbye_world():
     print('Bye bye')
+    return 'Bye bye'
 
 
 if __name__ == '__main__':
