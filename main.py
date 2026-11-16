@@ -1,5 +1,5 @@
-def say_hello():
-    print('Hello, World!')
+def say_hello(name):
+    print(f'Hello, {name}!')
 
 
 def goodbye_world():
@@ -8,5 +8,5 @@ def goodbye_world():
 
 
 if __name__ == '__main__':
-    say_hello()
+    say_hello(input())
     goodbye_world()
